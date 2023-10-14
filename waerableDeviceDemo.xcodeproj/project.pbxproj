@@ -16,11 +16,11 @@
 		6A76933B2AD3E284006404E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A76933A2AD3E284006404E3 /* ContentView.swift */; };
 		6A76933D2AD3E284006404E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A76933C2AD3E284006404E3 /* Assets.xcassets */; };
 		6A7693402AD3E284006404E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A76933F2AD3E284006404E3 /* Preview Assets.xcassets */; };
-		6A76934C2AD40C6A006404E3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A76934B2AD40C6A006404E3 /* CoreMotion.framework */; };
 		6A76934E2AD40F82006404E3 /* MotionSensorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A76934D2AD40F82006404E3 /* MotionSensorScreen.swift */; };
-		6A7693512AD414FF006404E3 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7693502AD414FF006404E3 /* HealthKit.framework */; };
 		6A7693532AD4204A006404E3 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7693522AD4204A006404E3 /* HealthManager.swift */; };
 		6A76935B2AD52601006404E3 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7693542AD44255006404E3 /* HealthKit.framework */; };
+		6A76935C2AD6BC4E006404E3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A76934B2AD40C6A006404E3 /* CoreMotion.framework */; };
+		6A76935E2ADA372B006404E3 /* MotionSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A76935D2ADA372B006404E3 /* MotionSensor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +61,10 @@
 		6A76934B2AD40C6A006404E3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		6A76934D2AD40F82006404E3 /* MotionSensorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensorScreen.swift; sourceTree = "<group>"; };
 		6A76934F2AD413A3006404E3 /* waerableDeviceDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = waerableDeviceDemo.entitlements; sourceTree = "<group>"; };
-		6A7693502AD414FF006404E3 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		6A7693522AD4204A006404E3 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
 		6A7693542AD44255006404E3 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		6A7693592AD442DA006404E3 /* waerableDeviceDemo Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "waerableDeviceDemo Watch App.entitlements"; sourceTree = "<group>"; };
+		6A76935D2ADA372B006404E3 /* MotionSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A76934C2AD40C6A006404E3 /* CoreMotion.framework in Frameworks */,
-				6A7693512AD414FF006404E3 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A76935B2AD52601006404E3 /* HealthKit.framework in Frameworks */,
+				6A76935C2AD6BC4E006404E3 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +133,7 @@
 				6A7693382AD3E284006404E3 /* waerableDeviceDemoApp.swift */,
 				6A76933A2AD3E284006404E3 /* ContentView.swift */,
 				6A76934D2AD40F82006404E3 /* MotionSensorScreen.swift */,
+				6A76935D2ADA372B006404E3 /* MotionSensor.swift */,
 				6A7693522AD4204A006404E3 /* HealthManager.swift */,
 				6A76933C2AD3E284006404E3 /* Assets.xcassets */,
 				6A76933E2AD3E284006404E3 /* Preview Content */,
@@ -152,7 +152,6 @@
 		6A76934A2AD40C6A006404E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A7693502AD414FF006404E3 /* HealthKit.framework */,
 				6A7693542AD44255006404E3 /* HealthKit.framework */,
 				6A76934B2AD40C6A006404E3 /* CoreMotion.framework */,
 			);
@@ -274,6 +273,7 @@
 				6A76934E2AD40F82006404E3 /* MotionSensorScreen.swift in Sources */,
 				6A7693392AD3E284006404E3 /* waerableDeviceDemoApp.swift in Sources */,
 				6A7693532AD4204A006404E3 /* HealthManager.swift in Sources */,
+				6A76935E2ADA372B006404E3 /* MotionSensor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
