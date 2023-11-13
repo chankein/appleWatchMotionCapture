@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6A76931E2AD3E282006404E3 /* Build configuration list for PBXProject "waerableDeviceDemo" */;
+			buildConfigurationList = 6A76931E2AD3E282006404E3 /* Build configuration list for PBXProject "appleWatchMotionCapture" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -549,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6A76931E2AD3E282006404E3 /* Build configuration list for PBXProject "waerableDeviceDemo" */ = {
+		6A76931E2AD3E282006404E3 /* Build configuration list for PBXProject "appleWatchMotionCapture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A7693412AD3E284006404E3 /* Debug */,

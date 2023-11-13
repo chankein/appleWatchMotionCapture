@@ -91,7 +91,7 @@ class HealthManager: ObservableObject {
         let predicte = HKQuery.predicateForSamples(withStart: start, end: end)
         //let predicte = HKQuery.predicateForSamples(withStart: .startOfWeek, end: end)
         let query = HKSampleQuery(sampleType: HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.heartRate)!,
-               predicate: HKQuery.predicateForSamples(withStart: .startOfWeek, end: end, options: []),
+               predicate: HKQuery.predicateForSamples(withStart: start, end: end, options: []),
                limit: HKObjectQueryNoLimit,
                sortDescriptors: [NSSortDescriptor(key: HKSampleSortIdentifierEndDate, ascending: true)]){ (query, results, error) in
             

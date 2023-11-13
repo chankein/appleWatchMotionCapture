@@ -57,7 +57,7 @@ extension MotionSensorScreen {
                   .font(.system(size: 14))
                   .foregroundColor(Color(.white))
                 Text("x: \(sensor.acceX) \ny: \(sensor.acceY) \nz: \(sensor.acceZ)")
-                  .font(.system(size: 12))
+                  .font(.system(size: 11))
                   .foregroundColor(Color(red: 0.79, green: 0.79, blue: 0.79))
                   .multilineTextAlignment(.leading)
             }
@@ -70,7 +70,7 @@ extension MotionSensorScreen {
             Spacer()
             VStack {
                 Text("回転速度")
-                    .font(.system(size: 12))
+                    .font(.system(size: 11))
                     .foregroundColor(Color(.white))
                 Text("x: \(sensor.rotX) \ny: \(sensor.rotY) \nz: \(sensor.rotZ)")
                     .font(.system(size: 12))
