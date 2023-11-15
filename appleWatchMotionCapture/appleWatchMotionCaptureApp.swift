@@ -1,6 +1,6 @@
 //
 //  waerableDeviceDemoApp.swift
-//  waerableDeviceDemo Watch App
+//  waerableDeviceDemo
 //
 //  Created by kein chan on 2023/10/09.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct waerableDeviceDemo_Watch_AppApp: App {
+struct appleWatchMotionCaptureApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A7693272AD3E282006404E3 /* waerableDeviceDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7693262AD3E282006404E3 /* waerableDeviceDemoApp.swift */; };
+		6A7693272AD3E282006404E3 /* appleWatchMotionCaptureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7693262AD3E282006404E3 /* appleWatchMotionCaptureApp.swift */; };
 		6A7693292AD3E282006404E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7693282AD3E282006404E3 /* ContentView.swift */; };
 		6A76932B2AD3E284006404E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A76932A2AD3E284006404E3 /* Assets.xcassets */; };
 		6A76932E2AD3E284006404E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A76932D2AD3E284006404E3 /* Preview Assets.xcassets */; };
-		6A7693342AD3E284006404E3 /* waerableDeviceDemo Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6A7693332AD3E284006404E3 /* waerableDeviceDemo Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6A7693392AD3E284006404E3 /* waerableDeviceDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7693382AD3E284006404E3 /* waerableDeviceDemoApp.swift */; };
+		6A7693342AD3E284006404E3 /* appleWatchMotionCapture_Watch_App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6A7693332AD3E284006404E3 /* appleWatchMotionCapture_Watch_App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6A7693392AD3E284006404E3 /* appleWatchMotionCaptureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7693382AD3E284006404E3 /* appleWatchMotionCaptureApp.swift */; };
 		6A76933B2AD3E284006404E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A76933A2AD3E284006404E3 /* ContentView.swift */; };
 		6A76933D2AD3E284006404E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A76933C2AD3E284006404E3 /* Assets.xcassets */; };
 		6A7693402AD3E284006404E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A76933F2AD3E284006404E3 /* Preview Assets.xcassets */; };
@@ -40,7 +40,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				6A7693342AD3E284006404E3 /* waerableDeviceDemo Watch App.app in Embed Watch Content */,
+				6A7693342AD3E284006404E3 /* appleWatchMotionCapture_Watch_App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,22 +48,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6A7693232AD3E282006404E3 /* waerableDeviceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waerableDeviceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A7693262AD3E282006404E3 /* waerableDeviceDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waerableDeviceDemoApp.swift; sourceTree = "<group>"; };
+		6A7693232AD3E282006404E3 /* appleWatchMotionCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appleWatchMotionCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7693262AD3E282006404E3 /* appleWatchMotionCaptureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleWatchMotionCaptureApp.swift; sourceTree = "<group>"; };
 		6A7693282AD3E282006404E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A76932A2AD3E284006404E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A76932D2AD3E284006404E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6A7693332AD3E284006404E3 /* waerableDeviceDemo Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "waerableDeviceDemo Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A7693382AD3E284006404E3 /* waerableDeviceDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waerableDeviceDemoApp.swift; sourceTree = "<group>"; };
+		6A7693332AD3E284006404E3 /* appleWatchMotionCapture_Watch_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appleWatchMotionCapture_Watch_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7693382AD3E284006404E3 /* appleWatchMotionCaptureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleWatchMotionCaptureApp.swift; sourceTree = "<group>"; };
 		6A76933A2AD3E284006404E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A76933C2AD3E284006404E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A76933F2AD3E284006404E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6A76934B2AD40C6A006404E3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		6A76934D2AD40F82006404E3 /* MotionSensorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensorScreen.swift; sourceTree = "<group>"; };
-		6A76934F2AD413A3006404E3 /* waerableDeviceDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = waerableDeviceDemo.entitlements; sourceTree = "<group>"; };
+		6A76934F2AD413A3006404E3 /* appleWatchMotionCapture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appleWatchMotionCapture.entitlements; sourceTree = "<group>"; };
 		6A7693522AD4204A006404E3 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
 		6A7693542AD44255006404E3 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
-		6A7693592AD442DA006404E3 /* waerableDeviceDemo Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "waerableDeviceDemo Watch App.entitlements"; sourceTree = "<group>"; };
+		6A7693592AD442DA006404E3 /* appleWatchMotionCapture_Watch_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appleWatchMotionCapture_Watch_App.entitlements; sourceTree = "<group>"; };
 		6A76935D2ADA372B006404E3 /* MotionSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,8 +90,8 @@
 		6A76931A2AD3E282006404E3 = {
 			isa = PBXGroup;
 			children = (
-				6A7693252AD3E282006404E3 /* waerableDeviceDemo */,
-				6A7693372AD3E284006404E3 /* waerableDeviceDemo Watch App */,
+				6A7693252AD3E282006404E3 /* appleWatchMotionCapture */,
+				6A7693372AD3E284006404E3 /* appleWatchMotionCapture_Watch_App */,
 				6A7693242AD3E282006404E3 /* Products */,
 				6A76934A2AD40C6A006404E3 /* Frameworks */,
 			);
@@ -100,22 +100,22 @@
 		6A7693242AD3E282006404E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A7693232AD3E282006404E3 /* waerableDeviceDemo.app */,
-				6A7693332AD3E284006404E3 /* waerableDeviceDemo Watch App.app */,
+				6A7693232AD3E282006404E3 /* appleWatchMotionCapture.app */,
+				6A7693332AD3E284006404E3 /* appleWatchMotionCapture_Watch_App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6A7693252AD3E282006404E3 /* waerableDeviceDemo */ = {
+		6A7693252AD3E282006404E3 /* appleWatchMotionCapture */ = {
 			isa = PBXGroup;
 			children = (
-				6A76934F2AD413A3006404E3 /* waerableDeviceDemo.entitlements */,
-				6A7693262AD3E282006404E3 /* waerableDeviceDemoApp.swift */,
+				6A76934F2AD413A3006404E3 /* appleWatchMotionCapture.entitlements */,
+				6A7693262AD3E282006404E3 /* appleWatchMotionCaptureApp.swift */,
 				6A7693282AD3E282006404E3 /* ContentView.swift */,
 				6A76932A2AD3E284006404E3 /* Assets.xcassets */,
 				6A76932C2AD3E284006404E3 /* Preview Content */,
 			);
-			path = waerableDeviceDemo;
+			path = appleWatchMotionCapture;
 			sourceTree = "<group>";
 		};
 		6A76932C2AD3E284006404E3 /* Preview Content */ = {
@@ -126,11 +126,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6A7693372AD3E284006404E3 /* waerableDeviceDemo Watch App */ = {
+		6A7693372AD3E284006404E3 /* appleWatchMotionCapture_Watch_App */ = {
 			isa = PBXGroup;
 			children = (
-				6A7693592AD442DA006404E3 /* waerableDeviceDemo Watch App.entitlements */,
-				6A7693382AD3E284006404E3 /* waerableDeviceDemoApp.swift */,
+				6A7693592AD442DA006404E3 /* appleWatchMotionCapture_Watch_App.entitlements */,
+				6A7693382AD3E284006404E3 /* appleWatchMotionCaptureApp.swift */,
 				6A76933A2AD3E284006404E3 /* ContentView.swift */,
 				6A76934D2AD40F82006404E3 /* MotionSensorScreen.swift */,
 				6A76935D2ADA372B006404E3 /* MotionSensor.swift */,
@@ -138,7 +138,7 @@
 				6A76933C2AD3E284006404E3 /* Assets.xcassets */,
 				6A76933E2AD3E284006404E3 /* Preview Content */,
 			);
-			path = "waerableDeviceDemo Watch App";
+			path = appleWatchMotionCapture_Watch_App;
 			sourceTree = "<group>";
 		};
 		6A76933E2AD3E284006404E3 /* Preview Content */ = {
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A7693222AD3E282006404E3 /* waerableDeviceDemo */ = {
+		6A7693222AD3E282006404E3 /* appleWatchMotionCapture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A7693472AD3E284006404E3 /* Build configuration list for PBXNativeTarget "waerableDeviceDemo" */;
+			buildConfigurationList = 6A7693472AD3E284006404E3 /* Build configuration list for PBXNativeTarget "appleWatchMotionCapture" */;
 			buildPhases = (
 				6A76931F2AD3E282006404E3 /* Sources */,
 				6A7693202AD3E282006404E3 /* Frameworks */,
@@ -175,14 +175,14 @@
 			dependencies = (
 				6A7693362AD3E284006404E3 /* PBXTargetDependency */,
 			);
-			name = waerableDeviceDemo;
+			name = appleWatchMotionCapture;
 			productName = waerableDeviceDemo;
-			productReference = 6A7693232AD3E282006404E3 /* waerableDeviceDemo.app */;
+			productReference = 6A7693232AD3E282006404E3 /* appleWatchMotionCapture.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6A7693322AD3E284006404E3 /* waerableDeviceDemo Watch App */ = {
+		6A7693322AD3E284006404E3 /* appleWatchMotionCapture_Watch_App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A7693432AD3E284006404E3 /* Build configuration list for PBXNativeTarget "waerableDeviceDemo Watch App" */;
+			buildConfigurationList = 6A7693432AD3E284006404E3 /* Build configuration list for PBXNativeTarget "appleWatchMotionCapture_Watch_App" */;
 			buildPhases = (
 				6A76932F2AD3E284006404E3 /* Sources */,
 				6A7693302AD3E284006404E3 /* Frameworks */,
@@ -192,9 +192,9 @@
 			);
 			dependencies = (
 			);
-			name = "waerableDeviceDemo Watch App";
+			name = appleWatchMotionCapture_Watch_App;
 			productName = "waerableDeviceDemo Watch App";
-			productReference = 6A7693332AD3E284006404E3 /* waerableDeviceDemo Watch App.app */;
+			productReference = 6A7693332AD3E284006404E3 /* appleWatchMotionCapture_Watch_App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -228,8 +228,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A7693222AD3E282006404E3 /* waerableDeviceDemo */,
-				6A7693322AD3E284006404E3 /* waerableDeviceDemo Watch App */,
+				6A7693222AD3E282006404E3 /* appleWatchMotionCapture */,
+				6A7693322AD3E284006404E3 /* appleWatchMotionCapture_Watch_App */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A7693292AD3E282006404E3 /* ContentView.swift in Sources */,
-				6A7693272AD3E282006404E3 /* waerableDeviceDemoApp.swift in Sources */,
+				6A7693272AD3E282006404E3 /* appleWatchMotionCaptureApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +271,7 @@
 			files = (
 				6A76933B2AD3E284006404E3 /* ContentView.swift in Sources */,
 				6A76934E2AD40F82006404E3 /* MotionSensorScreen.swift in Sources */,
-				6A7693392AD3E284006404E3 /* waerableDeviceDemoApp.swift in Sources */,
+				6A7693392AD3E284006404E3 /* appleWatchMotionCaptureApp.swift in Sources */,
 				6A7693532AD4204A006404E3 /* HealthManager.swift in Sources */,
 				6A76935E2ADA372B006404E3 /* MotionSensor.swift in Sources */,
 			);
@@ -282,7 +282,7 @@
 /* Begin PBXTargetDependency section */
 		6A7693362AD3E284006404E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6A7693322AD3E284006404E3 /* waerableDeviceDemo Watch App */;
+			target = 6A7693322AD3E284006404E3 /* appleWatchMotionCapture_Watch_App */;
 			targetProxy = 6A7693352AD3E284006404E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,10 +407,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "waerableDeviceDemo Watch App/waerableDeviceDemo Watch App.entitlements";
+				CODE_SIGN_ENTITLEMENTS = appleWatchMotionCapture_Watch_App/appleWatchMotionCapture_Watch_App.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"waerableDeviceDemo Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"appleWatchMotionCapture/Preview Content\"";
 				DEVELOPMENT_TEAM = X4LG5T8QN3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -440,10 +440,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "waerableDeviceDemo Watch App/waerableDeviceDemo Watch App.entitlements";
+				CODE_SIGN_ENTITLEMENTS = appleWatchMotionCapture_Watch_App/appleWatchMotionCapture_Watch_App.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"waerableDeviceDemo Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"appleWatchMotionCapture/Preview Content\"";
 				DEVELOPMENT_TEAM = X4LG5T8QN3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -475,10 +475,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = waerableDeviceDemo/waerableDeviceDemo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = appleWatchMotionCapture/appleWatchMotionCapture.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"waerableDeviceDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"appleWatchMotionCapture/Preview Content\"";
 				DEVELOPMENT_TEAM = X4LG5T8QN3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -513,10 +513,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = waerableDeviceDemo/waerableDeviceDemo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = appleWatchMotionCapture/appleWatchMotionCapture.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"waerableDeviceDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"appleWatchMotionCapture/Preview Content\"";
 				DEVELOPMENT_TEAM = X4LG5T8QN3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A7693432AD3E284006404E3 /* Build configuration list for PBXNativeTarget "waerableDeviceDemo Watch App" */ = {
+		6A7693432AD3E284006404E3 /* Build configuration list for PBXNativeTarget "appleWatchMotionCapture_Watch_App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A7693442AD3E284006404E3 /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A7693472AD3E284006404E3 /* Build configuration list for PBXNativeTarget "waerableDeviceDemo" */ = {
+		6A7693472AD3E284006404E3 /* Build configuration list for PBXNativeTarget "appleWatchMotionCapture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6A7693482AD3E284006404E3 /* Debug */,
